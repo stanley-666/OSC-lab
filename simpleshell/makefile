@@ -1,4 +1,4 @@
-CFLAGS = -Wall -O2 -ffreestanding -nostdinc -nostdlib -nostartfiles
+CFLAGS = -Wall -O2 -ffreestanding -nostdinc -nostdlib -nostartfiles -I/usr/aarch64-linux-gnu/include
 
 sources = $(wildcard *.c) 
 # $()為在makefile下變數引用函數的方法，wildcard為makefile一種函數:找此目錄下所有符合*.c的檔案
